@@ -1,26 +1,15 @@
-var raining = true;
-var cold = true;
-
-/*if (raining){
-    console.log("Don't forget your umbrella!");
-}*/
-
-if (cold){
-    console.log("Pick a scarf!");
-}
-else {
-    console.log("Short sleeves are fine!")
-}
-
-console.log("Ready to go out!");
-
-
-var temperature = 12;
-
-if (temperature < 0){
-    console.log("Make sure you pick out a scarf!");
-} else if (temperature < 15){
-    console.log("Short sleeves won't cut it!");
-} else {
-    console.log("Short sleeves are fine.");
-}
+function whichSchool(age) {
+    // Your code in here ...
+    if (age < 12){
+      return "you should go to Elementary School";
+    } else if (age >= 13 && age <= 18){
+      return "you should go to Secondary School";
+    } else {
+      return "you should go to Lighthouse labs";
+    }
+  }
+  
+  
+  console.log(whichSchool(35));
+  console.log(whichSchool(10));
+  console.log(whichSchool(14));
